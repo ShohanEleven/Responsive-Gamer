@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    }
+
+    .start{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        align-items: center;
+      
+    }
+ 
+    .prothom{
+        display: flex;
+        align-items: center;
+    }
+    .prothom i {
+        font-size: 48px; 
+        color: #FF42A5; 
+        margin-right: 10px; 
+      }
+     
+    .kichu {
+      display: flex; 
+      align-items: center;
+      justify-content: space-between; 
+      gap: 20px; 
+      padding: 20px; 
+      
+      
+  }
+    .hi{
+        display: flex;
+        gap:20px ;
+    }
+    
+    .hi i{
+        color: red; 
+        margin-right: 7px; 
+        margin-left: 7px;
+
+    }
+    .kichu li {
+    list-style: none; 
+    font-size: 18px; 
+  }
+     
+    .ww{
+    padding: 9px 9px 9px 9px;
+    border-radius: 5%;
+    background-color: rgb(230, 229, 229);
+     
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ee{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    margin-left: 400px;
+  }
+  .shohan{
+  
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+   
+  .btn1{
+    background-color: rgb(252, 113, 222);
+    padding: 10px 30px 10px 30px;
+    border-radius: 48px;
+    color: white;
+
+
+  }
+  .btn2{
+    background-color: rgb(104, 180, 224);
+    padding: 10px 30px 10px 30px;
+    border-radius: 48px;
+    color: white;
+
+
+  }
+  .gg{
+   
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+  }
+
+  .shohan i{
+    margin-right: 8px;
+    
+  }
+  
+  .mahi{
+    background-color: rgb(250, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px 80px 80px;
+    margin-top: 20px;
+  }
+   
+  .qq{
+    font-family: Work Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  .nawar{
+    
+      background-color: rgb(250, 243, 243);
+      display: flex;
+      justify-content: space-between;
+      padding: 80px 80px 80px 80px;
+     
+    
+  }
+   
+  .nibir{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  .hello{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fd0bc1; 
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .hello i{
+    font-size: 24px;
+  }
+
+  .hello p{
+    margin: 5px 0 0;
+    font-size: 12px;
+
+  }
+  .item {
+    position: relative; /* Needed for proper positioning of the overlay */
+    text-align: center;
+  }
+  .akhi{
+    margin-bottom: 100px;
+  }
+  .sajal{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px 30px 200px;
+    align-items: center;
+  
+  }
+ 
+  .baccha{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+  }
+  
+  .btn3{
+    background-color: rgb(253, 251, 253);
+    padding: 2px 30px 2px 30px;
+    border-radius: 48px;
+    color: rgb(10, 10, 10);
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+
+  }
+  .btn3:hover {
+    background-color: #fa43e2; 
+  }
+  .nuhin{
+    background-color: rgb(247, 238, 245);
+    padding: 70px 0px 70px 40px ;
+ 
+  
+    
+  }
+  .rafi{
+    background-color: rgb(12, 11, 11);
+    padding: 100px;
+  }
+  .samiha{
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+  .samiha i {
+    font-size: 48px; 
+    color: #FF42A5; 
+    margin-right: 10px; 
+  }
+  .samiha h1{
+    color: aliceblue;
+  }
+  .afra{
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 300px 0px 300px;
+  }
+  .lamia i{
+    text-decoration: none;
+    font-size: 30px;
+  
+    color: white;
+    display: inline-block;
+   
+    margin: 0px 70px 0px 70px;
+
+  }
+  .mira{
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 300px 0px 300px;
+  }
+
+  @media screen and (max-width:576px) {
+  .start{
+    flex-direction : column;
+  }
+    
+  }
+  @media screen and (max-width:576px) {
+    .hi{
+      flex-direction: column;
+    }
+      
+    }
+    @media screen and (max-width:576px) {
+    .mahi{
+        flex-direction: column-reverse;
+      }
+        
+      }
+      @media screen and (max-width:576px) {
+    .nawar{
+            flex-direction: column;
+          }
+            
+          }
+    @media screen and (max-width:576px) {
+    .nibir{
+          flex-direction: column;
+          }
+                    
+          }
+
+    @media screen and (max-width:576px) {
+    .sajal{
+          flex-direction: column;
+            }
+                                    
+            }
+    @media screen and (max-width:576px) {
+    .nuhin{
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+        }
+                                                                    
+      }
+
+
+      @media screen and (max-width:576px) {
+        .ee{
+         
+          align-items: center;
+          margin-left: 40px;
+            }
+                                                                        
+          }
+    @media screen and (max-width:576px) {
+    .samiha{
+          flex-direction: column;
+          margin-left:20px ;
+            }
+      }
+
+      @media screen and (max-width:576px) {
+    .afra{
+             
+      align-items: center;
+      margin: 30px -10px 30px -10px;
+              }
+                                                                            
+              }    
+
+
+  @media screen and (max-width:576px) {
+    .mira{  
+                         
+    align-items: center;
+    margin: 30px -50px 30px 0px;
+                          }
+                                                                                        
+  }  
+
+
+  @media screen and (max-width:576px) {
+    .lamia i{  
+                         
+    align-items: center;
+    margin: 40px 70px 30px 0px;
+                          }
+                                                                                        
+  }
